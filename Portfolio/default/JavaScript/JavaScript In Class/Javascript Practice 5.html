@@ -1,0 +1,39 @@
+    <?xml version = "1.0"?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    
+    <!-- Fig. 7.6: welcome5.html -->
+    <!-- Using Prompt Boxes      -->
+    
+    <html xmlns = "http://www.w3.org/1999/xhtml">
+       <head> 
+         <title>Using Prompt and Alert Boxes</title>
+   
+         <script type = "text/javascript">
+            var Firstname = "Rogelio"; 
+			var Lastname = "Rios";
+			
+			const getAverage = arr => {
+				//sum the values from the array
+				const reducer = (total, currentValue) => total + currentValue;
+				const sum = arr.reduce(reducer);
+				
+				//get the length of the array
+				// divide the array sum by the length
+				return sum / arr.length;
+				}
+   		
+			document.writeln( "<h1 style = \"color: red\">" ); 
+            document.writeln( "Hello, " + Firstname + " " + Lastname + 
+               ", Welcome to JavaScript programming!</h1>" );
+			   
+			document.writeln("<h2 style = \"color: blue\">");
+			doucment.writeln("Click button below to calculate average</h2>");
+         </script>
+		</head>
+		<body>
+			
+			<button onclick="alert(getAverage([1,2,3]));">Click me!</button>
+		</body>
+	</html>
+	

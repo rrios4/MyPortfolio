@@ -1,0 +1,45 @@
+body {    
+	background: white;
+	width: 800px; 
+	margin: auto;
+
+	
+}
+h1 {    
+	color: maroon;    
+	text-align: center;
+}
+h2 {
+	color: maroon;
+	tect-align: center;
+}
+h6 {
+	color: maroon;
+	tect-align: center;
+	border: 1px solid black;
+}
+p {    
+	color: maroon;    
+	border: 1px solid black;    
+	padding: 10px;
+}
+.column {
+  float: left;
+  width: 15%;
+  height:5%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}

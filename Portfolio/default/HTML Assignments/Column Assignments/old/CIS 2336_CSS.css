@@ -1,0 +1,41 @@
+/* css for 1 column colored boxes*/ 
+*{
+		margin: 0px;
+		padding: 0px;
+}
+#cotainer{
+	width: flex;
+	margin: flex;
+	}
+header{
+	background-color: red;
+	min-height: 80px;
+	}
+#main{
+	background-color:  yellow;
+	min-height: 300px;
+	overflow: hidden;
+	}
+
+footer{
+	background-color: #090;
+	min-height: 60px;
+	}
+.column {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background-color: lightcyan;
+}
+.column2 {
+	float: left;
+	width: 50%;
+	height: 600px;
+	background-color: yellow;	
+	
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
